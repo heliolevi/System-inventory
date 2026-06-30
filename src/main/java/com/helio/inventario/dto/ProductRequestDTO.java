@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotNull;
 
 import java.math.BigDecimal;
 
-public record productRequestDTO(
+public record ProductRequestDTO(
     @NotBlank(message = "O código do produto é obrigatório")
     String code,
 
